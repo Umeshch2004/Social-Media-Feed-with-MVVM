@@ -173,7 +173,7 @@ mvn test
 # Run with coverage
 mvn test jacoco:report
 # Performance tests
-mvn test -Dtest="*PerformanceTest"`
+mvn test -Dtest="*PerformanceTest" `
 
 
 
